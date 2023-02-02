@@ -1,0 +1,22 @@
+
+#container{
+    background-color: rgb(233, 163, 163);
+    position:absolute;
+    top: 15rem;
+    left:25rem;
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+}
+.sign-inp{
+    width: 50%;
+    height: 10%;
+    margin: 2rem;
+}
+.sign-btn{
+    width: 10%;
+    height: 10%;
+    margin: 1rem;
+    color: white;
+    background-color: rgb(148, 148, 241)
+}

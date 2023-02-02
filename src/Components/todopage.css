@@ -1,0 +1,28 @@
+#header{
+    border: 6px solid yellowgreen;
+    display: flex;
+    justify-content: end;
+}
+body{
+    position: relative;
+}
+#aside-bar{
+    position: absolute;
+    width: 25%;
+    background-color:yellowgreen ;
+    height: 88vh;
+}
+#right-table{
+    position: absolute;
+    left: 50rem;
+    top: 10rem;
+
+}
+#logout-btn{
+    width: 10rem;
+    height: 3rem;
+    margin-left: 5rem;
+    margin-top: 25rem;
+    box-sizing: border-box;
+}
+
