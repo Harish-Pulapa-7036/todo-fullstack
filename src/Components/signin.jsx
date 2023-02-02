@@ -14,8 +14,11 @@ const Signin = () => {
           
           if (res.data.message == "success") {
             localStorage.setItem("token", res.data.token);
+            
+
             localStorage.setItem("username", res.data.username);
             alert("login Succesfull");
+            navigate('/todopage')
             navigate('/todopage')
           }
           if (res.data.message == "invalid password") {
