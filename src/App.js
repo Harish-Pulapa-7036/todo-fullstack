@@ -13,7 +13,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Signin/>}/>
          <Route path='/signup' element={<Signup/>}/>
-        <Route path='/todopage' element={token ? (<Todo/>):(<Navigate replace to={'/'}/>)}/> 
+
+        <Route path='/todopage' element={<Todo/>}/> 
 
       </Routes>
     </BrowserRouter>

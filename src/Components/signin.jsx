@@ -19,7 +19,7 @@ const Signin = () => {
             localStorage.setItem("username", res.data.username);
             alert("login Succesfull");
             navigate('/todopage')
-            navigate('/todopage')
+            
           }
           if (res.data.message == "invalid password") {
             alert("invalid password");
